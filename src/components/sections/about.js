@@ -135,26 +135,18 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! My name is Raymon...</p>
-
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              Hello! My name is Raymon and I am currently a Software Developer for the MyChart team
+              at Epic Systems.{' '}
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              I graduated from the University of Pennsylvania (Class of 2022) as a Magna Cum Laude
+              with a Cognitive Science and Computer Science major, and a Linguistics minor. During
+              my time there, I've worked as a research assistant for the{' '}
+              <a href="https://sites.google.com/view/eischlab">Eisch Lab</a> at the Children's
+              Hospital of Philadelphia and as a student IT specialist at{' '}
+              <a href="https://computing.wharton.upenn.edu/">Wharton Computing.</a>
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
