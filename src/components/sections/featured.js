@@ -157,7 +157,7 @@ const StyledProject = styled.li`
     z-index: 2;
     padding: 25px;
     border-radius: var(--border-radius);
-    background-color: var(--light-navy);
+    background-color: var(--white);
     color: var(--light-slate);
     font-size: var(--fz-lg);
 
@@ -256,7 +256,7 @@ const StyledProject = styled.li`
     a {
       width: 100%;
       height: 100%;
-      background-color: var(--green);
+      background-color: var(--project-icon);
       border-radius: var(--border-radius);
       vertical-align: middle;
 
@@ -283,7 +283,7 @@ const StyledProject = styled.li`
         bottom: 0;
         z-index: 3;
         transition: var(--transition);
-        background-color: var(--navy);
+        background-color: var(--project-icon);
         mix-blend-mode: screen;
       }
     }
