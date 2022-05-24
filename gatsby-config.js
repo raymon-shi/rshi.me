@@ -5,7 +5,7 @@ module.exports = {
     title: 'Raymon Shi',
     description: 'Raymon Shi is a software developer who just likes to make things!',
     siteUrl: 'https://raymonshi.me', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
+    image: 'og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '',
   },
   plugins: [
