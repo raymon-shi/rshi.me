@@ -135,7 +135,7 @@ const StyledSidebar = styled.aside`
         content: '0' counter(item) '.';
         display: block;
         margin-bottom: 5px;
-        color: var(--green);
+        color: var(--orange);
         font-size: var(--fz-sm);
       }
     }

@@ -20,14 +20,9 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: inherit;
   }
 
-  ::selection {
-    background-color: var(--lightest-navy);
-    color: var(--lightest-slate);
-  }
-
   /* Provide basic, default focus styles.*/
   :focus {
-    outline: 2px dashed var(--green);
+    outline: 2px dashed var(--orange);
     outline-offset: 3px;
   }
 
@@ -46,7 +41,7 @@ const GlobalStyle = createGlobalStyle`
     focus.
   */
   :focus-visible {
-    outline: 2px dashed var(--green);
+    outline: 2px dashed var(--orange);
     outline-offset: 3px;
   }
 
@@ -194,7 +189,7 @@ const GlobalStyle = createGlobalStyle`
       counter-increment: section;
       content: '0' counter(section) '.';
       margin-right: 10px;
-      color: var(--green);
+      color: var(--orange);
       font-family: var(--font-mono);
       font-size: clamp(var(--fz-md), 3vw, var(--fz-xl));
       font-weight: 400;
@@ -261,7 +256,7 @@ const GlobalStyle = createGlobalStyle`
 
     &:hover,
     &:focus {
-      color: var(--green);
+      color: var(--orange);
     }
 
     &.inline-link {
@@ -325,14 +320,14 @@ const GlobalStyle = createGlobalStyle`
           content: '▹';
           position: absolute;
           left: 0;
-          color: var(--green);
+          color: var(--orange);
         }
       }
     }
   }
 
   blockquote {
-    border-left-color: var(--green);
+    border-left-color: var(--orange);
     border-left-style: solid;
     border-left-width: 1px;
     margin-left: 0px;
@@ -372,7 +367,7 @@ const GlobalStyle = createGlobalStyle`
 
     &:focus,
     &:active {
-      background-color: var(--green);
+      background-color: var(--orange);
       color: var(--navy);
       top: 0;
       left: 0;
@@ -384,18 +379,18 @@ const GlobalStyle = createGlobalStyle`
   }
 
   #logo {
-    color: var(--green);
+    color: var(--orange);
   }
 
   .overline {
-    color: var(--green);
+    color: var(--orange);
     font-family: var(--font-mono);
     font-size: var(--fz-md);
     font-weight: 400;
   }
 
   .subtitle {
-    color: var(--green);
+    color: var(--orange);
     margin: 0 0 20px 0;
     font-size: var(--fz-md);
     font-family: var(--font-mono);

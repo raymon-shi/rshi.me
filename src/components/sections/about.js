@@ -39,7 +39,7 @@ const StyledText = styled.div`
         content: '▹';
         position: absolute;
         left: 0;
-        color: var(--green);
+        color: var(--orange);
         font-size: var(--fz-sm);
         line-height: 12px;
       }
@@ -61,7 +61,7 @@ const StyledPic = styled.div`
     position: relative;
     width: 100%;
     border-radius: var(--border-radius);
-    background-color: var(--green);
+    background-color: var(--orange);
 
     &:hover,
     &:focus {
@@ -105,7 +105,7 @@ const StyledPic = styled.div`
     }
 
     &:after {
-      border: 2px solid var(--green);
+      border: 2px solid var(--orange);
       top: 20px;
       left: 20px;
       z-index: -1;
@@ -125,7 +125,17 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Javascript', 'ReactJS', 'Python', 'Java', 'SQL', 'Ruby on Rails'];
+  const skills = [
+    'Typescript',
+    'Javascript',
+    'React',
+    'C#',
+    'M',
+    'SCSS',
+    'IIS Rewrite Rules',
+    'Python',
+    'SQL',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,17 +145,40 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Raymon and I am currently a Software Developer for the MyChart team
-              at Epic Systems.{' '}
+              Hello! My name is Raymon and I am currently a full stack Software Developer for the
+              MyChart Scheduling team at Epic Systems.{' '}
             </p>
 
             <p>
-              I graduated from the University of Pennsylvania (Class of 2022) as a Magna Cum Laude
-              with a Cognitive Science and Computer Science major, and a Linguistics minor. During
-              my time there, I've worked as a research assistant for the{' '}
-              <a href="https://sites.google.com/view/eischlab">Eisch Lab</a> at the Children's
-              Hospital of Philadelphia and as a student IT specialist at{' '}
-              <a href="https://computing.wharton.upenn.edu/">Wharton Computing.</a>
+              On the MyChart Scheduling team, I specialize in our digital front door solutions,
+              designed to help patients find and establish care with the healthcare organization
+              that best meets their needs.
+            </p>
+            <p>I work on several key areas, including:</p>
+            <ul>
+              <li>
+                Provider Finder and Location Finder—Our provider and location directory tools that
+                help patients easily search for care options.
+              </li>
+              <li>
+                Open Scheduling—An online scheduling workflow that allows new patients without
+                MyChart accounts to book appointments.
+              </li>
+              <li>
+                On My Way—An urgent and emergency care workflow that displays nearby locations on a
+                map, shows current wait times, and lets patients join a queue to hold their spot in
+                line—without needing to wait at the clinic.
+              </li>
+            </ul>
+
+            <p>
+              Recently, I’ve been focused on enhancing the search engine optimization (SEO) of our
+              provider and location detail pages to improve their visibility in search results and
+              help patients more easily discover care options through organic search. In addition,
+              I’ve been supporting organizations in setting up white labeling for Provider Finder.
+              This involves implementing reverse proxy configurations and defining URL rewrite
+              rules, enabling health systems to offer a branded experience while maintaining the
+              underlying functionality of our platform.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

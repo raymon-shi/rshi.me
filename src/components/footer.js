@@ -68,27 +68,6 @@ const StyledCredit = styled.div`
 `;
 
 const Footer = () => (
-  // const [githubInfo, setGitHubInfo] = useState({
-  //   stars: null,
-  //   forks: null,
-  // });
-
-  // useEffect(() => {
-  //   if (process.env.NODE_ENV !== 'production') {
-  //     return;
-  //   }
-  //   fetch('https://api.github.com/repos/bchiang7/v4')
-  //     .then(response => response.json())
-  //     .then(json => {
-  //       const { stargazers_count, forks_count } = json;
-  //       setGitHubInfo({
-  //         stars: stargazers_count,
-  //         forks: forks_count,
-  //       });
-  //     })
-  //     .catch(e => console.error(e));
-  // }, []);
-
   <StyledFooter>
     <StyledSocialLinks>
       <ul>

@@ -8,11 +8,7 @@ module.exports = {
     },
     {
       name: 'GitHub',
-      url: 'https://github.com/raymon-shi',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/itsmerayhi/',
+      url: 'https://github.com/raymon-shi/',
     },
   ],
 

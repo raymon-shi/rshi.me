@@ -18,7 +18,7 @@ const StyledHeroSection = styled.section`
 
   h1 {
     margin: 0 0 30px 4px;
-    color: var(--green);
+    color: var(--orange);
     font-family: var(--font-mono);
     font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
     font-weight: 400;
@@ -58,14 +58,14 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>hi, my name is</h1>;
-  const two = <h2 className="big-heading">raymon shi.</h2>;
-  const three = <h3 className="big-heading">i'm just a person who likes to make things.</h3>;
+  const one = <h1>hey there, my name is</h1>;
+  const two = <h className="big-heading">raymon shi.</h>;
+  const three = <h3 className="big-heading">full stack software devloper</h3>;
   const four = (
     <>
       <p>
-        I'm a recent graduate from the University of Pennsylvania and I'm currently working as a
-        Software Developer for the MyChart team at{' '}
+        I'm a person who likes to solve challenging problems with elegant solutions. Currently, I
+        work as a Software Developer on the MyChart Scheduling team at{' '}
         <a href="https://www.epic.com/" target="_blank" rel="noreferrer">
           Epic Systems
         </a>

@@ -2,9 +2,10 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Raymon Shi',
-    description: 'Raymon Shi is a software developer who just likes to make things!',
-    siteUrl: 'https://raymonshi.me', // No trailing slash allowed!
+    title: 'Raymon Shi - Hey there, Ray here',
+    description:
+      'Raymon Shi is a passionate software developer who loves building things that make a difference. Currently, he works on the MyChart Scheduling team at Epic Systems, where he focuses on digital front door solutions that help patients connect more easily with healthcare. His work includes key features like Provider Finder, Location Finder, Open Scheduling, and On My Way—tools designed to streamline and enhance the patient experience.',
+    siteUrl: 'https://rshi.me', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '',
   },
@@ -19,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'RaymonShi',
-        short_name: 'RaymonShi',
+        name: 'Raymon Shi',
+        short_name: 'Raymon Shi',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
