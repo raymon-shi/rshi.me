@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/pensieve/dummy-post",
+    "result": {"data":{"markdownRemark":{"html":"","frontmatter":{"title":"Dummy Post","description":"This is a dummy post","date":"2025-07-05T00:00:00.000Z","slug":"/pensieve/dummy-post","tags":["Test Tag"]}}},"pageContext":{}},
+    "staticQueryHashes": ["1994492073","2681795072","3391063840","604461682"]}
